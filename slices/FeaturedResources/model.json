@@ -1,0 +1,39 @@
+{
+  "id": "featured_resources",
+  "type": "SharedSlice",
+  "name": "FeaturedResources",
+  "description": "Featured resource cards with images and links",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title"
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        },
+        "link": {
+          "type": "Link",
+          "config": {
+            "label": "Link"
+          }
+        }
+      }
+    }
+  ]
+}

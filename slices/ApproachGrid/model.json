@@ -1,0 +1,44 @@
+{
+  "id": "approach_grid",
+  "type": "SharedSlice",
+  "name": "ApproachGrid",
+  "description": "Grid of approach cards with icons and gradients",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description"
+          }
+        },
+        "icon_id": {
+          "type": "Select",
+          "config": {
+            "label": "Icon ID",
+            "options": ["layers", "code", "star", "shield", "check", "lock"]
+          }
+        },
+        "gradient": {
+          "type": "Text",
+          "config": {
+            "label": "Gradient"
+          }
+        }
+      }
+    }
+  ]
+}

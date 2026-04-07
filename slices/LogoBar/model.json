@@ -1,0 +1,25 @@
+{
+  "id": "logo_bar",
+  "type": "SharedSlice",
+  "name": "LogoBar",
+  "description": "Bar of client/partner logos",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "logo_name": {
+          "type": "Text",
+          "config": {
+            "label": "Logo Name"
+          }
+        }
+      }
+    }
+  ]
+}

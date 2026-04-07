@@ -1,0 +1,5 @@
+{
+  "repositoryName": "sample-agency",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./slices"]
+}

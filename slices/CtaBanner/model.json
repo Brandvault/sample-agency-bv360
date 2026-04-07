@@ -1,0 +1,37 @@
+{
+  "id": "cta_banner",
+  "type": "SharedSlice",
+  "name": "CtaBanner",
+  "description": "Call-to-action banner with heading and button",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "cta_text": {
+          "type": "Text",
+          "config": {
+            "label": "CTA Text"
+          }
+        },
+        "cta_link": {
+          "type": "Link",
+          "config": {
+            "label": "CTA Link"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

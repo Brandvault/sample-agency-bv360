@@ -1,0 +1,39 @@
+{
+  "id": "tech_stack",
+  "type": "SharedSlice",
+  "name": "TechStack",
+  "description": "Technology stack organized by tabs with logo grids",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "tab_name": {
+          "type": "Text",
+          "config": {
+            "label": "Tab Name"
+          }
+        },
+        "logo_name": {
+          "type": "Text",
+          "config": {
+            "label": "Logo Name"
+          }
+        },
+        "logo_image": {
+          "type": "Image",
+          "config": {
+            "label": "Logo Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "services_carousel",
+  "type": "SharedSlice",
+  "name": "ServicesCarousel",
+  "description": "Carousel of service cards with icons",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description"
+          }
+        },
+        "icon_id": {
+          "type": "Select",
+          "config": {
+            "label": "Icon ID",
+            "options": ["mobile", "testing", "web", "design", "cloud"]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "how_it_works",
+  "type": "SharedSlice",
+  "name": "HowItWorks",
+  "description": "Step-by-step process explanation",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "step_number": {
+          "type": "Text",
+          "config": {
+            "label": "Step Number"
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Title"
+          }
+        },
+        "description": {
+          "type": "Text",
+          "config": {
+            "label": "Description"
+          }
+        }
+      }
+    }
+  ]
+}

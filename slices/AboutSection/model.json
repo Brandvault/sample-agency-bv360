@@ -1,0 +1,60 @@
+{
+  "id": "about_section",
+  "type": "SharedSlice",
+  "name": "AboutSection",
+  "description": "About section with heading, body text, link and video image",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "heading": {
+          "type": "Text",
+          "config": {
+            "label": "Heading"
+          }
+        },
+        "heading_highlight": {
+          "type": "Text",
+          "config": {
+            "label": "Heading Highlight"
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink,list-item,o-list-item"
+          }
+        },
+        "link_text": {
+          "type": "Text",
+          "config": {
+            "label": "Link Text"
+          }
+        },
+        "link_url": {
+          "type": "Link",
+          "config": {
+            "label": "Link URL"
+          }
+        },
+        "video_image": {
+          "type": "Image",
+          "config": {
+            "label": "Video Image",
+            "constraint": {},
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
